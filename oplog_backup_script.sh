@@ -2,11 +2,11 @@
 
 # === CONFIGURATION ===
 SHARD_URIS=(
-  "mongodb://63.32.53.126:28021/?directConnection=true"
-  "mongodb://63.32.53.126:28022/?directConnection=true"
-  "mongodb://63.32.53.126:28023/?directConnection=true"
+  "mongodb://10.32.53.126:28021/?directConnection=true"
+  "mongodb://10.32.53.126:28022/?directConnection=true"
+  "mongodb://10.32.53.126:28023/?directConnection=true"
 )
-CONFIGSVR_URI="mongodb://63.32.53.126:28025/?directConnection=true"
+CONFIGSVR_URI="mongodb://10.32.53.126:28025/?directConnection=true"
 
 BACKUP_DIR="/home/ec2-user/oplog_test_sharded"
 TIMESTAMP_FILE="${BACKUP_DIR}/last_ts.txt"

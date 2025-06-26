@@ -5,10 +5,10 @@ BACKUP_DIR="/home/ec2-user/oplog_test_sharded"  # Root directory of all backups
 
 # Map of shard names to their MongoDB URIs
 declare -A SHARD_URIS
-SHARD_URIS[shard1]="mongodb://63.32.53.126:29122/?directConnection=true"
-SHARD_URIS[shard2]="mongodb://63.32.53.126:29123/?directConnection=true"
-SHARD_URIS[shard3]="mongodb://63.32.53.126:29124/?directConnection=true"
-SHARD_URIS[configsvr]="mongodb://63.32.53.126:29121/?directConnection=true"
+SHARD_URIS[shard1]="mongodb://10.32.53.126:29122/?directConnection=true"
+SHARD_URIS[shard2]="mongodb://10.32.53.126:29123/?directConnection=true"
+SHARD_URIS[shard3]="mongodb://10.32.53.126:29124/?directConnection=true"
+SHARD_URIS[configsvr]="mongodb://10.32.53.126:29121/?directConnection=true"
 
 # Optional oplog limit in "<seconds>:<ordinal>" format
 OPLOG_LIMIT_TIMESTAMP=""  # e.g. "1721978046:1" or leave blank
