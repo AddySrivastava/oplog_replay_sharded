@@ -1,6 +1,6 @@
 # oplog_replay_sharded
 
-Takes backup and replays oplogs in a sharded cluster
+Takes oplog backup and replays oplogs in a sharded cluster
 
 ## Overview
 
